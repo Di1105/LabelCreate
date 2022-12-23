@@ -14,14 +14,14 @@ class LabelCreate: UIViewController {
             super.viewDidLoad()
              setupUI()
         }
-        
+    
         
         func setupUI() {
             
             lazy var ortUstLabel = UILabel()
             ortUstLabel.text = "Orta-Ust"
             ortUstLabel.textAlignment = .center
-            ortUstLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
+            //ortUstLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
             //ortUstLabel.numberOfLines = 0
             ortUstLabel.textColor = .white
             ortUstLabel.backgroundColor = .blue
@@ -35,7 +35,7 @@ class LabelCreate: UIViewController {
             lazy var sagAltLabel = UILabel()
             sagAltLabel.text = "Sag-Alt"
             sagAltLabel.textAlignment = .center
-            sagAltLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
+            //sagAltLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
             //ortUstLabel.numberOfLines = 0
             sagAltLabel.textColor = .white
             sagAltLabel.backgroundColor = .red
